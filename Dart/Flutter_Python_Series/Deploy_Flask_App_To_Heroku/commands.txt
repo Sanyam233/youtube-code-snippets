@@ -1,0 +1,27 @@
+cd directory_name //to navigate around directories 
+
+cd .. //to go back a directory 
+
+pip3 install flask // to install flask in Python 3
+
+pip3 install gunicorn // to install gunicorn in Python 3
+
+pip freeze > requirements.txt // to create a list of dependencies in requirements.txt
+
+touch Procfile //to create a Procfile 
+
+heroku login //to login into heroku 
+
+git init //to start tracking the directory
+
+git add app.py Procfile requirements.txt //to add the following files for git to track 
+
+git status // to check the status of the files 
+
+git commit -m "Inital Commit" // to commit all the changes to git 
+
+git push heroku master //to push all the files to heroku 
+
+heroku logs --tail //in order to track down any errors due to which app deployment failed 
+
+
